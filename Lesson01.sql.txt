@@ -1,0 +1,33 @@
+CREATE TABLE items(id INTEGER PRIMARY KEY,item_name TEXT,item_price INTEGER ,item_quantity INTEGER , item_color TEXT);
+
+INSERT INTO items VALUES (1 , "duks",3000,30,"braon");
+
+INSERT INTO items VALUES (2 , "duks",3000,20,"plavi");
+
+INSERT INTO items VALUES (3 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (4 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (5 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (6 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (7 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (8 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (9 , "stolica",200,20,"braon");
+
+INSERT INTO items VALUES (10 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (11 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (12 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (13 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (14 , "stolica",300,20,"braon");
+
+INSERT INTO items VALUES (15 , "stolica",300,20,"braon");
+SELECT *  FROM items ORDER BY item_price ;
+SELECT SUM(item_quantity) FROM items  ;
